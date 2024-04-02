@@ -1,0 +1,22 @@
+{
+  "name": "submission-dicoding-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "lint": "eslint ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.6",
+    "nanoid": "3",
+    "nodemon": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": ">=5.16.0",
+    "eslint-config-google": "^0.14.0"
+  }
+}
